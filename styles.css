@@ -16,9 +16,10 @@ body {
 }
 
 .centerpiece img {
-  width:100% !important;
-  height:100% !important;
+  width:70% !important;
+  height:70% !important;
   display:block;
+  margin:3em auto 0 auto;
 }
 
 .title {
