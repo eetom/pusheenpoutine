@@ -7,6 +7,7 @@ body {
 }
 
 .centerpiece {
+  text-align: center;
   max-width: 55%;
   height: auto;
   position: relative;
@@ -41,6 +42,7 @@ p {
 
 @media only screen and (max-width: 767px) {
   .centerpiece {
+    text-align: center;
     max-width: 70%;
     height: auto;
     position: relative;
