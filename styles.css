@@ -15,6 +15,12 @@ body {
   margin:0 auto;
 }
 
+.centerpiece img {
+  width:100% !important;
+  height:100% !important;
+  display:block;
+}
+
 .title {
 	margin-bottom: 5px;
   font-size: 3em;
@@ -32,10 +38,6 @@ a {
 
 p {
   font-size: 1.5em;
-}
-
-.centerpiece img {
-  display:block;
 }
 
 @media only screen and (max-width: 767px) {
@@ -60,6 +62,7 @@ p {
 
 @media only screen and (max-width: 600px) {
   .centerpiece {
+    text-align: center;
     max-width: 90%;
     height: auto;
     position: relative;
