@@ -1,0 +1,70 @@
+/*CSS styling for pusheenpoutine - March 2019*/
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.centerpiece {
+  max-width: 55%;
+  height: auto;
+  position: relative;
+  display: block;
+  margin:0 auto;
+}
+
+.title {
+	margin-bottom: 5px;
+  font-size: 3em;
+}
+
+.subtitle {
+	margin-top: 5px;
+	margin-bottom: 30px;
+  font-size: 1.3em;
+}
+
+a {
+	color: #0186B6;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.centerpiece img {
+  width:100% !important;
+  height:100% !important;
+  display:block;
+}
+
+@media only screen and (max-width: 767px) {
+  .centerpiece {
+    max-width: 70%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin:0 auto;
+  }
+  .title {
+		font-size: 2.4em;
+	}
+	.subtitle {
+		font-size: 1.2em;
+	}
+	p {
+	  font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .centerpiece {
+    max-width: 90%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin:0 auto;
+  }
+}
+
