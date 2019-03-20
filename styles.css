@@ -16,7 +16,7 @@ body {
 }
 
 .title-illustration {
-  width:40% !important;
+  width:60% !important;
   height:30% !important;
   display:block;
   margin: 5em auto 0 auto;
@@ -85,6 +85,15 @@ a {
 
 p {
   font-size: 1.3em;
+}
+
+.credit {
+  font-size: 0.8em;
+}
+
+.divider {
+  width: 80%;
+  border: 1px solid #ccc;
 }
 
 @media only screen and (max-width: 767px) {
